@@ -21,4 +21,8 @@ public class Prepare {
      * 副本编号
      */
     private Integer nodeId;
+    /**
+     * 签名
+     */
+    private String Signature;
 }

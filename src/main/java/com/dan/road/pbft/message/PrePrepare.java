@@ -10,6 +10,10 @@ import lombok.ToString;
 @Getter @ToString
 public class PrePrepare {
     /**
+     * 块信息
+     */
+    private String blockMes;
+    /**
      * 视图编号
      */
     private Integer viewId;
@@ -18,7 +22,11 @@ public class PrePrepare {
      */
     private Long number;
     /**
-     * 消息签名
+     * 消息签名摘要
      */
     private String digest;
+    /**
+     * 签名
+     */
+    private String Signature;
 }

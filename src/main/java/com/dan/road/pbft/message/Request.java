@@ -1,5 +1,6 @@
 package com.dan.road.pbft.message;
 
+import com.sun.javafx.binding.StringFormatter;
 import jnr.ffi.annotations.In;
 import lombok.Getter;
 import lombok.Setter;
@@ -20,6 +21,15 @@ public class Request {
      * 客户端编号
      */
     private Integer clientId;
+    /**
+     * 操作
+     */
+   private String operation;
+
+    /**
+     * 签名
+     */
+    private String Signature;
 
     public Request(Integer clientId) {
         this.clientId = clientId;
