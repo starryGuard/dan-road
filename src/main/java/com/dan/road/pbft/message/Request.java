@@ -27,7 +27,7 @@ public class Request {
    private String operation;
 
     /**
-     * 签名
+     * 消息签名
      */
     private String Signature;
 

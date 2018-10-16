@@ -22,7 +22,7 @@ public class Commit {
      */
     private Integer index;
     /**
-     * 签名
+     * 消息签名
      */
     private String Signature;
 

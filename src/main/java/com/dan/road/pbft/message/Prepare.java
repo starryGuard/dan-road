@@ -22,7 +22,7 @@ public class Prepare {
      */
     private Integer nodeId;
     /**
-     * 签名
+     * 消息签名
      */
     private String Signature;
 }

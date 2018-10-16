@@ -26,7 +26,7 @@ public class PrePrepare {
      */
     private String digest;
     /**
-     * 签名
+     * 消息签名
      */
     private String Signature;
 }
